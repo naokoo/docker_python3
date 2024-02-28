@@ -14,6 +14,8 @@ RUN apt-get install -y vim less
 RUN pip install --upgrade pip
 RUN pip install --upgrade setuptools
 RUN pip install --upgrade BeautifulSoup4
-RUN pip install --upgrade sklearn
+RUN pip install --upgrade scikit-learn
 RUN pip install --upgrade tqdm
+RUN pip install --upgrade openpyxl 
+RUN pip install --upgrade pyarrow
 
